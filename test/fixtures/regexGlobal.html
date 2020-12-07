@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flags</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		//Global Search 
+		var regexGlobal = /abc/g ; 
+		console.log(regexGlobal.test('abc abc'));
+
+
+		//Case - insensitive 
+		var regexinsensitive = /abc/i ;
+		console.log(regexinsensitive.test("World ABC abc"));
+
+		var regexGI = /abc/i ; 
+		console.log(regexGI.test("abc, hello world , , and , again ABC"))
+		console.log(regexGI.exec("abc"))
+
+
+	</script>
+
+</body>
+</html>
